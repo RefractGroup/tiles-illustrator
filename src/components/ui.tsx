@@ -142,7 +142,7 @@ export function Toggle({
           }`}
         >
           <span
-            className={`absolute top-[2px] h-[14px] w-[14px] rounded-full bg-white transition-transform ${
+            className={`absolute left-0 top-[2px] h-[14px] w-[14px] rounded-full bg-white transition-transform ${
               checked ? "translate-x-[16px]" : "translate-x-[2px]"
             }`}
           />
